@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 1200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.user-list {
+  width: 200px;
+  border: solid black 1px;
+}
+
+.user {
+  padding: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.user:hover {
+  color: crimson;
+}
+
+
+.card {
+  border: solid black 1px;
+}
+
+.card > div {
+margin-top: 10px;
+border-top: 1px solid #000;
+}
